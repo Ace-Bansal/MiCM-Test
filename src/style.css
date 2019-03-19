@@ -1,0 +1,26 @@
+h1, p {
+  font-family: Lato;
+}
+
+.scroll-container{
+    overflow-y: scroll;
+    border: 5px solid black;
+    height: 120px;
+    padding: 7px;
+}
+
+.user-details{
+  height: 100px;
+  width: 200px;
+  left: 15%;
+  background: white;
+  position: absolute;
+  display: table;
+  border: 2px solid black;
+  visibility: hidden;
+}
+
+.user-name:hover .user-details{
+  visibility: visible;
+  z-index: 100;
+}
